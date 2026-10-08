@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NO-BURN | Smart Waste Intelligence</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="#overview" class="brand">
+
+            <span class="brand-mark">N</span>
+
+            <div>
+                <strong>NO-BURN</strong>
+                <small>Smart Waste Intelligence</small>
+            </div>
+
+        </a>
+
+        <nav class="nav-links">
+
+            <a href="#overview">Overview</a>
+            <a href="#detection">Detection</a>
+            <a href="#classification">Classification</a>
+            <a href="#action">Action</a>
+            <a href="#recovery">Recovery</a>
+            <a href="#impact">Impact</a>
+
+        </nav>
+
+        <div class="system-status">
+            <span class="status-dot"></span>
+            System Online
+        </div>
+
+    </div>
+
+</header>
+
+
+<main>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="overview">
+
+    <div class="hero-content">
+
+        <div class="eyebrow">
+            AI-POWERED WASTE MANAGEMENT
+        </div>
+
+        <h1>
+            Know your waste.<br>
+            <span>Choose its right destination.</span>
+        </h1>
+
+        <p>
+            NO-BURN uses artificial intelligence to identify waste
+            from images and recommend the safest and most suitable
+            disposal, recycling or recovery pathway.
+        </p>
+
+        <div class="hero-actions">
+
+            <a href="#detection" class="btn btn-primary">
+                Identify my waste
+                <span>→</span>
+            </a>
+
+            <a href="#impact" class="btn btn-secondary">
+                View impact
+            </a>
+
+        </div>
+
+        <div class="demo-note">
+            <span></span>
+            Prototype environment · AI classification demo
+        </div>
+
+    </div>
+
+
+    <div class="hero-panel">
+
+        <div class="panel-header">
+
+            <div>
+                <span class="panel-label">
+                    WASTE INTELLIGENCE
+                </span>
+
+                <h3>
+                    Smart Classification
+                </h3>
+            </div>
+
+            <span class="live-badge">
+                ACTIVE
+            </span>
+
+        </div>
+
+
+        <div class="environment-score">
+
+            <div class="score-circle">
+                <strong>AI</strong>
+                <span>Ready</span>
+            </div>
+
+            <div class="score-info">
+
+                <p>
+                    Image classification
+                </p>
+
+                <strong>
+                    Waste identification ready
+                </strong>
+
+                <small>
+                    Upload an image to begin
+                </small>
+
+            </div>
+
+        </div>
+
+
+        <div class="environment-grid">
+
+            <div class="environment-item">
+                <span>Plastic</span>
+                <strong>♻</strong>
+                <small>Recycle</small>
+            </div>
+
+            <div class="environment-item">
+                <span>Organic</span>
+                <strong>●</strong>
+                <small>Compost</small>
+            </div>
+
+            <div class="environment-item">
+                <span>Paper</span>
+                <strong>▤</strong>
+                <small>Recycle</small>
+            </div>
+
+            <div class="environment-item">
+                <span>E-Waste</span>
+                <strong>⚡</strong>
+                <small>Special handling</small>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= STATS ================= -->
+
+<section class="stats-section">
+
+    <div class="stat-card">
+
+        <span class="stat-label">
+            WASTE CATEGORIES
+        </span>
+
+        <strong>06+</strong>
+
+        <small class="neutral">
+            AI classification types
+        </small>
+
+    </div>
+
+
+    <div class="stat-card">
+
+        <span class="stat-label">
+            RECYCLABLE
+        </span>
+
+        <strong>♻</strong>
+
+        <small class="positive">
+            Recovery pathway available
+        </small>
+
+    </div>
+
+
+    <div class="stat-card">
+
+        <span class="stat-label">
+            BURNING AVOIDED
+        </span>
+
+        <strong>NO</strong>
+
+        <small class="positive">
+            Safer waste management
+        </small>
+
+    </div>
+
+
+    <div class="stat-card">
+
+        <span class="stat-label">
+            AI STATUS
+        </span>
+
+        <strong>ON</strong>
+
+        <small class="positive">
+            Classification ready
+        </small>
+
+    </div>
+
+</section>
+
+
+<!-- ================= DETECTION ================= -->
+
+<section class="section" id="detection">
+
+    <div class="section-heading">
+
+        <div>
+
+            <span class="section-kicker">
+                01 · WASTE DETECTION
+            </span>
+
+            <h2>
+                Identify any type of waste
+            </h2>
+
+            <p>
+                Upload an image of waste and let the AI determine
+                its category and recommended action.
+            </p>
+
+        </div>
+
+        <span class="demo-tag">
+            AI DEMO
+        </span>
+
+    </div>
+
+
+    <div class="analysis-grid">
+
+
+        <!-- UPLOAD -->
+
+        <div class="card upload-card">
+
+            <div class="card-header">
+
+                <div>
+
+                    <h3>
+                        Waste image
+                    </h3>
+
+                    <p>
+                        JPG, JPEG, PNG supported
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="upload-area" id="uploadArea">
+
+                <div class="upload-icon">
+                    ↑
+                </div>
+
+                <h4>
+                    Upload waste image
+                </h4>
+
+                <p>
+                    Drag and drop an image here or select
+                    one from your device.
+                </p>
+
+
+                <label class="file-button">
+
+                    Choose image
+
+                    <input
+                        type="file"
+                        id="imageInput"
+                        accept="image/*"
+                        hidden
+                    >
+
+                </label>
+
+
+                <span
+                    id="fileName"
+                    class="file-name"
+                >
+                    No file selected
+                </span>
+
+            </div>
+
+
+            <!-- PREVIEW -->
+
+            <div
+                class="preview-container"
+                id="previewContainer"
+            >
+
+                <img
+                    id="previewImage"
+                    alt="Waste preview"
+                >
+
+                <div class="preview-info">
+
+                    <span>
+                        Selected waste
+                    </span>
+
+                    <strong id="previewName">
+                        Image
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <button
+                class="btn btn-primary full-width"
+                id="detectBtn"
+            >
+
+                Identify waste
+
+                <span>→</span>
+
+            </button>
+
+        </div>
+
+
+        <!-- RESULT -->
+
+        <div class="card detection-card">
+
+            <div class="card-header">
+
+                <div>
+
+                    <span class="section-kicker">
+                        AI CLASSIFICATION
+                    </span>
+
+                    <h3>
+                        Waste identification
+                    </h3>
+
+                </div>
+
+                <span
+                    class="result-status"
+                    id="resultStatus"
+                >
+                    Awaiting image
+                </span>
+
+            </div>
+
+
+            <div
+                class="detection-result"
+                id="detectionResult"
+            >
+
+                <div class="empty-state">
+
+                    <div class="empty-icon">
+                        +
+                    </div>
+
+                    <h4>
+                        No waste identified yet
+                    </h4>
+
+                    <p>
+                        Upload an image and run the analysis
+                        to identify the waste category.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CLASSIFICATION ================= -->
+
+<section class="section" id="classification">
+
+    <div class="section-heading">
+
+        <div>
+
+            <span class="section-kicker">
+                02 · WASTE CLASSIFICATION
+            </span>
+
+            <h2>
+                Understand your waste
+            </h2>
+
+            <p>
+                Different materials require different disposal
+                and recovery methods.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="category-grid">
+
+
+        <div class="card category-card">
+
+            <div class="category-icon">
+                ♻
+            </div>
+
+            <h3>
+                Plastic
+            </h3>
+
+            <p>
+                Bottles, containers and plastic packaging.
+            </p>
+
+            <span class="category-action">
+                Recommended: Recycling
+            </span>
+
+        </div>
+
+
+        <div class="card category-card">
+
+            <div class="category-icon">
+                ●
+            </div>
+
+            <h3>
+                Organic
+            </h3>
+
+            <p>
+                Food scraps, leaves and biodegradable material.
+            </p>
+
+            <span class="category-action">
+                Recommended: Composting
+            </span>
+
+        </div>
+
+
+        <div class="card category-card">
+
+            <div class="category-icon">
+                ▤
+            </div>
+
+            <h3>
+                Paper & Cardboard
+            </h3>
+
+            <p>
+                Newspapers, cardboard boxes and paper products.
+            </p>
+
+            <span class="category-action">
+                Recommended: Paper recycling
+            </span>
+
+        </div>
+
+
+        <div class="card category-card">
+
+            <div class="category-icon">
+                ◇
+            </div>
+
+            <h3>
+                Glass
+            </h3>
+
+            <p>
+                Glass bottles, jars and containers.
+            </p>
+
+            <span class="category-action">
+                Recommended: Glass recycling
+            </span>
+
+        </div>
+
+
+        <div class="card category-card">
+
+            <div class="category-icon">
+                ⚙
+            </div>
+
+            <h3>
+                Metal
+            </h3>
+
+            <p>
+                Aluminium cans and other recyclable metals.
+            </p>
+
+            <span class="category-action">
+                Recommended: Metal recycling
+            </span>
+
+        </div>
+
+
+        <div class="card category-card">
+
+            <div class="category-icon">
+                ⚡
+            </div>
+
+            <h3>
+                E-Waste
+            </h3>
+
+            <p>
+                Electronic devices, cables and electrical components.
+            </p>
+
+            <span class="category-action">
+                Recommended: Authorized collection
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ACTION ================= -->
+
+<section class="section" id="action">
+
+    <div class="section-heading">
+
+        <div>
+
+            <span class="section-kicker">
+                03 · RECOMMENDED ACTION
+            </span>
+
+            <h2>
+                Turn identification into action
+            </h2>
+
+            <p>
+                Once the waste is identified, NO-BURN provides
+                a clear next step.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="action-grid">
+
+
+        <div class="card recommendation-card">
+
+            <span class="section-kicker">
+                AI RECOMMENDATION
+            </span>
+
+            <h3 id="actionTitle">
+                Upload an image first
+            </h3>
+
+            <p id="actionDescription">
+                Your recommended waste management action
+                will appear here after classification.
+            </p>
+
+
+            <div class="recommendation-box">
+
+                <span>
+                    Recommended action
+                </span>
+
+                <strong id="recommendedAction">
+                    —
+                </strong>
+
+            </div>
+
+
+            <button
+                class="btn btn-primary"
+                id="actionBtn"
+            >
+                Get recommendation
+                <span>→</span>
+            </button>
+
+        </div>
+
+
+        <div class="card warning-card">
+
+            <div class="warning-icon">
+                !
+            </div>
+
+            <span class="section-kicker">
+                NO-BURN PRINCIPLE
+            </span>
+
+            <h3>
+                Don't burn waste when a safer pathway exists.
+            </h3>
+
+            <p>
+                Correct identification helps people choose
+                recycling, composting, reuse or authorized
+                disposal instead of open burning.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= RECOVERY ================= -->
+
+<section class="section" id="recovery">
+
+    <div class="section-heading">
+
+        <div>
+
+            <span class="section-kicker">
+                04 · RECOVERY
+            </span>
+
+            <h2>
+                Give waste a destination
+            </h2>
+
+            <p>
+                Once classified, waste can be directed toward
+                the appropriate recovery pathway.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="recovery-grid">
+
+
+        <div class="card facility-card">
+
+            <div class="facility-top">
+
+                <div class="facility-icon">
+                    ♻
+                </div>
+
+                <span class="match-badge">
+                    AI MATCH
+                </span>
+
+            </div>
+
+
+            <span class="section-kicker">
+                RECOMMENDED PATHWAY
+            </span>
+
+
+            <h3 id="facilityTitle">
+                Waiting for classification
+            </h3>
+
+
+            <p id="facilityDescription">
+                Upload a waste image to receive a suitable
+                recovery or disposal pathway.
+            </p>
+
+
+            <div class="facility-details">
+
+                <div>
+
+                    <span>
+                        Material
+                    </span>
+
+                    <strong id="facilityMaterial">
+                        —
+                    </strong>
+
+                </div>
+
+
+                <div>
+
+                    <span>
+                        Action
+                    </span>
+
+                    <strong id="facilityAction">
+                        —
+                    </strong>
+
+                </div>
+
+
+                <div>
+
+                    <span>
+                        Priority
+                    </span>
+
+                    <strong id="facilityPriority">
+                        —
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <button
+                class="btn btn-primary full-width"
+                id="collectionBtn"
+            >
+                Request collection
+                <span>→</span>
+            </button>
+
+
+            <span
+                class="action-status center"
+                id="collectionStatus"
+            ></span>
+
+        </div>
+
+
+        <div class="card recovery-flow">
+
+            <span class="section-kicker">
+                SMART WASTE PATHWAY
+            </span>
+
+            <h3>
+                From image to action
+            </h3>
+
+
+            <div class="flow">
+
+                <div class="flow-step">
+
+                    <span>
+                        01
+                    </span>
+
+                    <strong>
+                        Upload
+                    </strong>
+
+                    <small>
+                        Waste image
+                    </small>
+
+                </div>
+
+
+                <div class="flow-line"></div>
+
+
+                <div class="flow-step">
+
+                    <span>
+                        02
+                    </span>
+
+                    <strong>
+                        Classify
+                    </strong>
+
+                    <small>
+                        AI identifies material
+                    </small>
+
+                </div>
+
+
+                <div class="flow-line"></div>
+
+
+                <div class="flow-step">
+
+                    <span>
+                        03
+                    </span>
+
+                    <strong>
+                        Recover
+                    </strong>
+
+                    <small>
+                        Follow recommended action
+                    </small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= IMPACT ================= -->
+
+<section
+    class="section impact-section"
+    id="impact"
+>
+
+    <div class="section-heading">
+
+        <div>
+
+            <span class="section-kicker">
+                05 · ENVIRONMENTAL IMPACT
+            </span>
+
+            <h2>
+                Prevent waste from becoming pollution
+            </h2>
+
+            <p>
+                Better waste classification can help reduce
+                unnecessary burning and improve recovery.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="impact-grid">
+
+
+        <div class="impact-card">
+
+            <span>
+                WASTE IDENTIFIED
+            </span>
+
+            <strong id="wasteImpact">
+                0 kg
+            </strong>
+
+            <small>
+                Estimated material processed
+            </small>
+
+        </div>
+
+
+        <div class="impact-card">
+
+            <span>
+                BURNING AVOIDED
+            </span>
+
+            <strong>
+                YES
+            </strong>
+
+            <small>
+                Safer waste pathway recommended
+            </small>
+
+        </div>
+
+
+        <div class="impact-card">
+
+            <span>
+                RECOVERY POTENTIAL
+            </span>
+
+            <strong>
+                HIGH
+            </strong>
+
+            <small>
+                Material can be redirected
+            </small>
+
+        </div>
+
+
+        <div class="impact-card">
+
+            <span>
+                AI RESPONSE
+            </span>
+
+            <strong>
+                FAST
+            </strong>
+
+            <small>
+                Automated classification workflow
+            </small>
+
+        </div>
+
+    </div>
+
+
+    <p class="impact-note">
+        Environmental impact values shown by this prototype are
+        estimates and should be validated using real-world data.
+    </p>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-inner">
+
+        <div>
+
+            <strong>
+                NO-BURN
+            </strong>
+
+            <p>
+                Identify waste. Choose better. Prevent pollution.
+            </p>
+
+        </div>
+
+
+        <div class="footer-right">
+
+            <span>
+                AI Waste Management Prototype
+            </span>
+
+            <span>
+                © 2026 NO-BURN
+            </span>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
